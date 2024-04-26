@@ -1,0 +1,90 @@
+/*
+Theme Name: CustomTheme
+Theme URI: http://example.com/mytheme
+Author: Your Name
+Author URI: http://example.com
+Description: Sample theme for WordPress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mytheme,
+Tags: responsive, aesthetic
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+* {
+  font-family: "Fredoka", sans-serif !important;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    padding: 1rem 2rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Logo and Heading Styles */
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333; 
+}
+
+/* Menu Container */
+.main-menu div {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.main-menu li {
+    margin-right: 20px; 
+}
+
+.main-menu a {
+    text-decoration: none; 
+    color: #555; 
+    padding: 0.5rem 1rem; 
+    transition: color 0.3s ease; 
+}
+
+.main-menu a:hover {
+    color: #007BFF;
+}
+
+
+.header-content h2 {
+    color: #666; 
+    font-weight: normal;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.header-content h2 {
+  color: #666;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background: #666;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-title {
+  font-size: 2em;
+}
+
+#content {
+  padding: 20px;
+}
